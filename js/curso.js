@@ -80,3 +80,29 @@ let matriz = [
     [7,8,9]
 ];
 console.log(matriz);
+
+for(let i=0;i<matriz.length;i++) {
+    console.log(matriz[i])
+}
+
+//foreach
+for(let elemento of vector) { //Recorre un vector.
+    console.log(elemento)
+}
+
+for(let atributo in objeto) { //Recorre los ATRIBUTOS de un objeto
+  //  console.log("El atributo \'"+atributo+"\' vale " + objeto[atributo])
+  console.log(`El atributo "${atributo}" vale  ${objeto[atributo]}`) //Comillas americanas.
+}
+
+let matriz2 = [
+    [1,2,3],
+    [4,5,6,14,18,20],
+    [7,8,9]
+];
+
+for(let fila of matriz2) {
+    for(let elemento of fila) 
+        console.log(elemento)
+    
+}
