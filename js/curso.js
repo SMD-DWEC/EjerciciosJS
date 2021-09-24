@@ -106,3 +106,8 @@ for(let fila of matriz2) {
         console.log(elemento)
     
 }
+
+let a = 1;
+let b = '1';
+console.log(a !=b)
+console.log(a !== b)
